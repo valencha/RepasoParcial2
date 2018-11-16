@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="30dp"
+        android:text="Registro y Login"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="30dp"
+        android:text="Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:hint="Ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nombre"/>
+
+    <TextView
+        android:textSize="30dp"
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_email"/>
+
+    <TextView
+        android:textSize="30dp"
+        android:text="Contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_contrasena"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:id="@+id/btn_registrar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesion"
+        android:id="@+id/btn_login"/>
+
+</LinearLayout>
